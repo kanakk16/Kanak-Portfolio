@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kanak Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <section class="hero">
+        <div class="left">
+            <h1>Hi there, I'm Kanak</h1>
+            <p>Frontend Developer & Designer crafting aesthetic digital experiences</p>
+            <button onclick="document.getElementById('projects').scrollIntoView({ behavior: 'smooth' })">
+                View My Work
+            </button>
+        </div>
+
+        <div class="right">
+            <div class="profile-card">
+                <img src="images/me1.jpeg" alt="">
+            </div>
+        </div>
+    </section>
+    <div class="divider"></div>
+    <section class="about hidden">
+        <h2 class="section-title">About Me</h2>
+
+        <div class="about-container">
+
+            <div class="card">
+                <h3>🌻 Who I Am</h3>
+                <p>
+                    I am a frontend developer focused on building clean, responsive and aesthetic websites.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>🌈 What I Love</h3>
+                <p>
+                    I enjoy designing user-friendly interfaces and turning ideas into visually appealing web
+                    experiences.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>✨ My Goal</h3>
+                <p>
+                    My goal is to start freelancing and deliver high-quality websites to clients while growing my
+                    skills.
+                </p>
+            </div>
+            <div class="card">
+                <h3>🎓 Education</h3>
+                <p class="edu-text">
+                    B.Sc in Computer Science
+                    <br>
+                    <span>Currently Pursuing</span>
+                </p>
+            </div>
+
+        </div>
+    </section>
+    <div class="divider"></div>
+    <section class="skills hidden">
+        <h2 class="section-title">Skills</h2>
+        <p>My toolkit for crafting aesthetic and functional websites</p>
+
+        <div class="skills-container">
+
+            <span class="skill">
+                <i class="fab fa-html5"></i> HTML
+            </span>
+
+            <span class="skill">
+                <i class="fab fa-css3-alt"></i> CSS
+            </span>
+
+            <span class="skill">
+                <i class="fab fa-js"></i> JavaScript
+            </span>
+
+            <span class="skill">
+                <i class="fas fa-mobile-alt"></i> Responsive Design
+            </span>
+
+            <span class="skill">
+                <i class="fas fa-pencil-ruler"></i> UI/UX
+            </span>
+
+        </div>
+    </section>
+    <div class="divider"></div>
+    <section class="projects hidden" id="projects">
+        <h2 class="section-title">Projects</h2>
+        <p>My recent work</p>
+
+        <div class="project-container">
+
+            <div class="project-card">
+                <h3>I Am Sorry 💌</h3>
+                <p>
+                    A creative and interactive apology letter website built using HTML, CSS, and JavaScript.
+                    Designed to express emotions in a unique way with engaging UI, smooth interactions, and responsive
+                    layout.
+                </p>
+
+                <a href="https://kanakk16.github.io/I-am-Sorry.../" target="_blank" class="project-btn">
+                    View Project
+                </a>
+            </div>
+
+            <div class="project-card">
+                <h3>Velvet Glow Salon 💅</h3>
+                <p>
+                    A modern and fully responsive salon website designed with a focus on aesthetics and user experience.
+                    Built using HTML, CSS, and JavaScript, featuring smooth navigation, clean layout, and visually
+                    appealing design.
+                </p>
+
+                <a href="https://kanakk16.github.io/Velvet-Glow-Salon/" target="_blank" class="project-btn">
+                    View Project
+                </a>
+            </div>
+
+        </div>
+    </section>
+    <div class="divider"></div>
+    <section class="contact hidden">
+        <h2 class="section-title">Let's Work Together</h2>
+
+        <div class="contact-wrapper">
+
+            <!-- LEFT SIDE (FORM) -->
+            <form id="contact-form" class="contact-form card">
+                <p class="contact-tagline">
+                    Drop a message to brighten my day ☕
+                </p>
+                <input type="text" name="user_name" placeholder="Your Name" required>
+                <input type="email" name="user_email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+
+            <!-- RIGHT SIDE -->
+            <div class="contact-info">
+
+                <div class="info-box card">
+                    <p>
+                        I'm always open to discussing new opportunities, creative projects, or partnerships.
+                    </p>
+
+                    <ul>
+                        <li>Web Development</li>
+                        <li>UI/UX Design</li>
+                        <li>Technical Work</li>
+                    </ul>
+                </div>
+
+                <div class="social-box card">
+                    <h3>Contact Info</h3>
+
+                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=kanakgupta6830@gmail.com" target="_blank"
+                        class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>kanakgupta6830@gmail.com</span>
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/kanakgupta16" target="_blank" class="contact-item">
+                        <i class="fab fa-linkedin"></i>
+                        <span>www.linkedin.com/in/kanakgupta16</span>
+                    </a>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
