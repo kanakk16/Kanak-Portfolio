@@ -72,7 +72,7 @@ I love creating aesthetic and functional websites.
 ## 📬 Contact Me
 
 - Email: kanakgupta6830@gmail.com 
-- LinkedIn: https://linkedin.com/in/your-profile  
+- LinkedIn: www.linkedin.com/in/kanakgupta16.
 
 ---
 
