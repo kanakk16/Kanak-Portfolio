@@ -398,7 +398,6 @@ button:hover {
   transform: translateX(5px);
 }
 
-
 button,
 .contact-item {
   cursor: pointer;
@@ -470,29 +469,33 @@ button,
 
   .about-container {
     grid-template-columns: repeat(2, 1fr);
-    gap: 15px 12px; 
-    max-width: 250px;
+    gap: 8px;
+    max-width: 270px;
     margin: auto;
   }
 
   .card {
     width: 100%;
     aspect-ratio: 1 / 1;
-    padding: 6px;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   .card h3 {
-    font-size: 0.7rem;
-    margin-bottom: 3px;
+    font-size: 0.75rem;
+    margin-bottom: 4px;
   }
 
   .card p {
-    font-size: 0.6rem; 
-    line-height: 1.05;
+    font-size: 0.65rem;
+    line-height: 1.1;
   }
 
   .edu-text span {
-    font-size: 0.55rem;
+    font-size: 0.6rem;
   }
 
   .skills {
