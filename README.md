@@ -1,7 +1,7 @@
 # ✨ Kanak Portfolio
 
-A modern, responsive personal portfolio website designed and developed using HTML, CSS, and JavaScript.  
-This project showcases my skills, projects, and contact information in a clean and visually appealing way.
+A modern, responsive personal portfolio website built using HTML, CSS, and JavaScript.  
+It showcases my skills, projects, and contact details with a clean UI and smooth user experience.
 
 ---
 
@@ -9,26 +9,26 @@ This project showcases my skills, projects, and contact information in a clean a
 
 - 🌸 Elegant and modern UI design  
 - 📱 Fully responsive (mobile + desktop)  
-- ✨ Smooth scroll animations  
+- ✨ Smooth scroll-based animations  
 - 💼 Projects showcase section  
 - 🧠 Skills highlight section  
 - 📬 Contact form with EmailJS integration  
-- 🎨 Custom styling with soft gradient theme  
+- 🎨 Soft gradient + glassmorphism design  
 
 ---
 
 ## 🛠️ Tech Stack
 
 - HTML5  
-- CSS3  
-- JavaScript  
+- CSS3 (Flexbox + Grid)  
+- JavaScript (Intersection Observer API)  
 - EmailJS  
 
 ---
 
-## 📂 Sections Included
+## 📂 Sections
 
-- Hero Section  
+- Hero  
 - About Me  
 - Skills  
 - Projects  
@@ -36,46 +36,45 @@ This project showcases my skills, projects, and contact information in a clean a
 
 ---
 
-## 📸 Preview
+## 🌐 Live Demo
 
-Live Demo:  
 👉 https://kanakk16.github.io/Kanak-Portfolio/
 
 ---
 
-## 💡 What I Learned
+## 💡 Learnings
 
-- Building responsive layouts using CSS Grid & Flexbox  
-- Implementing scroll-based animations using Intersection Observer  
-- Integrating EmailJS for form handling  
-- Designing clean UI with gradients and glassmorphism  
+- Built responsive layouts using Flexbox and Grid  
+- Implemented scroll animations using Intersection Observer  
+- Integrated EmailJS for handling form submissions  
+- Improved UI design using gradients and modern effects  
 
 ---
 
-## 🎯 Future Improvements
+## 🔮 Future Improvements
 
-- Add dark/light mode toggle  
-- Improve animations performance  
+- Dark/Light mode toggle  
 - Add more projects  
-- Optimize loading speed  
+- Improve animation smoothness  
+- Performance optimization  
 
 ---
 
 ## 🙋‍♀️ About Me
 
 Hi, I'm **Kanak** 👋  
-I’m passionate about web development and currently learning frontend technologies.  
-I love creating aesthetic and functional websites.
+A frontend developer passionate about building aesthetic and user-friendly websites.  
+Currently exploring and improving my skills in web development.
 
 ---
 
-## 📬 Contact Me
+## 📬 Contact
 
-- Email: kanakgupta6830@gmail.com 
-- LinkedIn: www.linkedin.com/in/kanakgupta16
+- 📧 Email: kanakgupta6830@gmail.com  
+- 💼 LinkedIn: https://www.linkedin.com/in/kanakgupta16  
 
 ---
 
-## ⭐ If you like this project
+## 📬 Let's Connect
 
-Give it a ⭐ on GitHub and support my work!
+If you’d like to collaborate or have any opportunities, feel free to reach out!
