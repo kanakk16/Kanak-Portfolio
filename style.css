@@ -560,8 +560,8 @@ button,
   }
 
   .project-card {
-    width: 100%;
-    max-width: 250px; /* 🔥 bada aur clean */
+    width: 90%;
+    max-width: 300px; /* 🔥 bada aur clean */
     padding: 16px;
     border-radius: 16px;
   }
