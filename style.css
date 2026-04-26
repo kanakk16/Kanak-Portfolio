@@ -561,7 +561,7 @@ button,
 
   .project-card {
     width: 90%;
-    max-width: 350px; /* 🔥 bada aur clean */
+    max-width: 300px; /* 🔥 bada aur clean */
     padding: 16px;
     border-radius: 16px;
   }
