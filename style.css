@@ -468,15 +468,15 @@ button,
 
   .about-container {
     grid-template-columns: repeat(2, 1fr);
-    gap: 8px;
-    max-width: 270px;
+    gap: 10px;
+    max-width: 300px;
     margin: auto;
   }
 
   .card {
     width: 100%;
-    aspect-ratio: 1 / 1;
-    padding: 8px;
+    padding: 14px;
+    border-radius: 16px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -484,13 +484,13 @@ button,
   }
 
   .card h3 {
-    font-size: 0.75rem;
+    font-size: 0.9rem;
     margin-bottom: 4px;
   }
 
   .card p {
-    font-size: 0.65rem;
-    line-height: 1.1;
+    font-size: 0.75rem;
+    line-height: 1.3;
   }
 
   .edu-text span {
@@ -612,12 +612,17 @@ button,
   .contact-form input,
   .contact-form textarea {
     padding: 10px;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
   }
 
   .contact-form button {
     padding: 8px;
     font-size: 0.8rem;
+  }
+
+  .contact-tagline {
+    font-size: 1rem;
+    margin-bottom: 18px;
   }
 
   .contact-info {
