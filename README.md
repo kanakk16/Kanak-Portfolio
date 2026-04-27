@@ -8,7 +8,7 @@ It showcases my skills, projects, and contact details with a clean UI and smooth
 ## 🚀 Features
 
 - 🌸 Elegant and modern UI design  
-- 📱 Fully responsive (mobile + desktop)  
+- 📱 Fully responsive 
 - ✨ Smooth scroll-based animations  
 - 💼 Projects showcase section  
 - 🧠 Skills highlight section  
@@ -20,8 +20,8 @@ It showcases my skills, projects, and contact details with a clean UI and smooth
 ## 🛠️ Tech Stack
 
 - HTML5  
-- CSS3 (Flexbox + Grid)  
-- JavaScript (Intersection Observer API)  
+- CSS3  
+- JavaScript  
 - EmailJS  
 
 ---
